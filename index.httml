@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>مشروعي النهائي — هوايتي والمعلومات</title>
+</head>
+<body>
+
+  <header>
+    <h1>هوايتي: التصوير الفوتوغرافي</h1>
+    <p>صفحة بسيطة تعرض معلومات وصور وروابط حول التصوير الفوتوغرافي كفكرة لمشروع HTML.</p>
+  </header>
+
+  <nav aria-label="قائمة الموقع">
+    <h2>القائمة</h2>
+    <ul>
+      <li><a href="#about">نبذة</a></li>
+      <li><a href="#gallery">المعرض</a></li>
+      <li><a href="#resources">مصادر</a></li>
+    </ul>
+  </nav>
+
+  <main id="about" role="main">
+    <section>
+      <h2>نبذة عن الهواية</h2>
+      <p>التصوير الفوتوغرافي هواية تسمح بتوثيق اللحظات وجمال الطبيعة والبشر. يمكن تعلم أساسياتها بسهولة وبدء الممارسة بهاتفك أو بكاميرا.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>معرض الصور</h2>
+      <p>فيما يلي ثلاث صور توضيحية مع سمات بديلة وصفية (alt):</p>
+
+      <figure>
+        <img src="https://via.placeholder.com/800x500?text=منظر+طبيعي+1" alt="منظر طبيعي لجبل عند غروب الشمس" width="800" height="500">
+        <figcaption>جبل عند الغروب — مثال على تصوير المناظر الطبيعية.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://via.placeholder.com/800x500?text=تصوير+شخصي+2" alt="بورتريه شخصي مبتسم في ضوء طبيعي" width="800" height="500">
+        <figcaption>بورتريه في ضوء ناعم.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://via.placeholder.com/800x500?text=تصوير+مدن+3" alt="مشهد ليلي لمدينة مضاءة بالأضواء" width="800" height="500">
+        <figcaption>مشهد ليلي لمدينة — تصوير لخفض التعريض وإبراز الأضواء.</figcaption>
+      </figure>
+    </section>
+
+    <section id="resources">
+      <h2>مصادر وتعليمات إضافية</h2>
+      <p>لمزيد من القراءة عن أساسيات التصوير: <a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%88%D9%8A%D8%B1" target="_blank" rel="noopener">مقال ويكيبيديا عن التصوير</a>.</p>
+
+      <h3>قائمة أدوات بسيطة</h3>
+      <ul>
+        <li>هاتف ذكي أو كاميرا رقمية</li>
+        <li>تطبيق تحرير صور أو برنامج مكتبي</li>
+        <li>حامل ثلاثي (Tripod) للاطارات الطويلة</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <h2>اتصل أو شارك</h2>
+    <p>أنشأت هذه الصفحة كجزء من مشروع نهائي لتعلم HTML — حظًا موفقًا في المراجعات!</p>
+  </footer>
+
+</body>
+</html>
