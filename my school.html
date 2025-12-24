@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>          
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مدرستنا</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="موقع مدرسة بسيط يعرض معلومات عن المدرسة، الأقسام، والمعرض.">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">مدرستنا</div>
+            <nav class="main-nav">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">من نحن</a>
+                <a href="#classes">الأقسام</a>
+                <a href="#gallery">المعرض</a>
+                <a href="#contact">اتصل بنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>مرحبًا بكم في مدرستنا</h1>
+                <p>بيئة تعليمية آمنة ومحفزة لتطوير مهارات الطلاب.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <h2>من نحن</h2>
+            <p>مدرستنا تسعى لتقديم تعليم متميّز يراعي الفروق الفردية، يضم كوادر تدريسية مؤهلة ومرافق مناسبة للتعلم.</p>
+        </section>
+
+        <section id="classes" class="container classes">
+            <h2>الأقسام والصفوف</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>الصف الأول</h3>
+                    <p>منهج متكامل لأنشطة ومهارات القراءة والكتابة.</p>
+                </div>
+                <div class="card">
+                    <h3>الصف الثاني</h3>
+                    <p>توسيع المهارات العلمية واللغوية.</p>
+                </div>
+                <div class="card">
+                    <h3>الصف الثالث</h3>
+                    <p>تركيز على التفكير النقدي والعمل الجماعي.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="container gallery">
+            <h2>المعرض</h2>
+            <p>أضف صور المدرسة هنا لاحقًا. مجلد مقترح: <code>assets/</code></p>
+        </section>
+
+        <section id="contact" class="container contact">
+            <h2>اتصل بنا</h2>
+            <form class="contact-form" action="#" method="post">
+                <label>الاسم
+                    <input type="text" name="name" required>
+                </label>
+                <label>البريد الإلكتروني
+                    <input type="email" name="email" required>
+                </label>
+                <label>الرسالة
+                    <textarea name="message" rows="5" required></textarea>
+                </label>
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">© 2025 مدرستنا — كل الحقوق محفوظة</div>
+    </footer>
+</body>
+</html>
